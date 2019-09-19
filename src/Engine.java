@@ -1,18 +1,18 @@
 
 public class Engine {
-    String binaryAdd(String input){
+    String binaryAdd(String x, String y){
 
     }
 
-    String binarySubtract(String input){
+    String binarySubtract(String x, String y){
 
     }
 
-    String binaryMultiply(String input){
+    String binaryMultiply(String x, String y){
 
     }
 
-    String binaryDivide(String input){
+    String binaryDivide(String x, String y){
 
     }
 
