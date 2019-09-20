@@ -8,5 +8,5 @@ Jawad = Displaying entered numbers and results on GUI
 
 John  = GUI construction
 
-Ian   = Arithmatic functionality
+Ian   = Arithmetic functionality
 

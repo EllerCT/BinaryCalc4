@@ -1,19 +1,33 @@
 
 public class Engine {
-    String binaryAdd(String x, String y){
 
+    String binaryAdd(String x, String y) {
+        int val1 = Integer.valueOf(x, 2);
+        int val2 = Integer.valueOf(y, 2);
+        int result = val1 + val2;
+        return Integer.toBinaryString(result);
     }
 
-    String binarySubtract(String x, String y){
-
+    String binarySubtract(String x, String y) {
+        int val1 = Integer.valueOf(x, 2);
+        int val2 = Integer.valueOf(y, 2);
+        int result = val1 - val2;
+        return Integer.toBinaryString(result);
     }
 
-    String binaryMultiply(String x, String y){
-
+    String binaryMultiply(String x, String y) {
+        int val1 = Integer.valueOf(x, 2);
+        int val2 = Integer.valueOf(y, 2);
+        int result = val1 * val2;
+        return Integer.toBinaryString(result);
     }
 
-    String binaryDivide(String x, String y){
-
+    //Takes the floor of the result
+    String binaryDivide(String x, String y) {
+        int val1 = Integer.valueOf(x, 2);
+        int val2 = Integer.valueOf(y, 2);
+        int result = (int) Math.floor(val1 / val2);
+        return Integer.toBinaryString(result);
     }
 
     /**
