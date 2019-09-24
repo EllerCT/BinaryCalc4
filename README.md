@@ -1,3 +1,5 @@
+![](Images/BinaryCalculator.png)
+
 # BinaryCalc4
 The CS 495 Binary Calculator assignment for group 4.
 
@@ -13,6 +15,7 @@ Ian   = Arithmetic functionality
 ## Instructions
 
 **PLEASE NOTE: This project requires javafx 13 to be properly integrated with Intellij, Otherwise it won't work!**
+Find instructions on how to do so here: https://openjfx.io/openjfx-docs/ under "JavaFX and Intellij"
 
 Run Main inside of the "View" folder to start the application.
 
