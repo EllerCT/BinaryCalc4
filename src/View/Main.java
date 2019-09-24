@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        FXMLLoader loader = new FXMLLoader(new File("src/View/MainUI.fxml").toURI().toURL());
+        FXMLLoader loader = new FXMLLoader(new File("../BinaryCalc4/src/View/MainUI.fxml").toURI().toURL());
         Parent root = loader.load();
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
